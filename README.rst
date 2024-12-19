@@ -12,9 +12,20 @@ Overview
 
 This extension provides RapiDoc powered OpenAPI spec renderer for Sphinx.
 
+Installation
+------------
 
-Links
------
+.. code:: bash
 
-- Source: https://github.com/sphinx-contrib/rapidoc
-- Bugs: https://github.com/sphinx-contrib/rapidoc/issues
+    $ pip install rapidoc
+
+* Free software: BSD License
+* Documentation: TBD
+* Source: https://github.com/quizoxis/sphinx-contrib-rapidoc
+* Bugs: https://github.com/sphinx-contrib/rapidoc/issues
+
+Have an idea or found something not working, feedback is much appreciated!
+
+.. _Sphinx: https://www.sphinx-doc.org/
+.. _OpenAPI: https://openapis.org/specification
+.. _RapiDoc: https://github.com/rapi-doc/RapiDoc
