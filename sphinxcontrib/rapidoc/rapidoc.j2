@@ -1,0 +1,35 @@
+{% macro bool_eval(value) -%}
+{% if value -%}
+True
+{%- else -%}
+False
+{%- endif %}
+{%- endmacro -%}
+
+<!doctype html>
+<html>
+  <head>
+    <title>{{ name | default('API documentation') }}</title>
+    <meta charset="{{ encoding | default('utf-8') }}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="{{ pathto('_static/rapidoc.js', 1) }}"></script>    
+    <style>
+      body { margin: 0; padding: 0; }
+    </style>
+  </head>
+  <body>
+
+ <rapi-doc id="thedoc" 
+    spec-url="{{ pathto(spec, 1) }}"
+    {% for key, value in opts.items() -%}
+    {% if value == True or value == False -%}
+          {{ key ~ '="' ~ value|string|lower ~ '"' }}
+      {% else -%}
+          {{ key ~ '="' ~ value ~ '"' }}
+      {% endif -%}
+    {% endfor -%}
+    >
+  </rapi-doc>
+  
+  </body>
+</html>

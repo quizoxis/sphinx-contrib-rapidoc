@@ -1,0 +1,7 @@
+pytest
+sphinx
+jsonschema
+PyYaml
+six
+sphinx_rtd_theme
+
