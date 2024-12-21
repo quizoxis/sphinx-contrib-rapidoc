@@ -17,12 +17,12 @@ Installation
 
 .. code:: bash
 
-    $ pip install rapidoc
+    $ pip install sphinxcontrib-rapidoc
 
 * Free software: BSD License
 * Documentation: TBD
-* Source: https://github.com/quizoxis/sphinx-contrib-rapidoc
-* Bugs: https://github.com/quizoxis/sphinx-contrib-rapidoc/issues
+* Source: https://github.com/sphinx-contrib/sphinx-contrib-rapidoc
+* Bugs: https://github.com/sphinx-contrib/sphinx-contrib-rapidoc/issues
 
 Have an idea or found something not working, feedback is much appreciated!
 
