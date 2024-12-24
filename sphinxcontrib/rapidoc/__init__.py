@@ -39,7 +39,7 @@ if False:
     from sphinx.application import Sphinx  # noqa
 
 # Version information
-__version__ = pbr.version.VersionInfo('rapidoc').version_string()
+__version__ = pbr.version.VersionInfo('sphinxcontrib-rapidoc').version_string()
 
 # Module constants
 MODULE_DIR = os.path.abspath(os.path.dirname(__file__))
